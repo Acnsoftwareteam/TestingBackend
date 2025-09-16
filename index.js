@@ -7,6 +7,8 @@ app.get("/", (req, res) => {
   res.send("Hello, this is my first Node.js app with one route!");
 });
 
+
+
 // Start server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
